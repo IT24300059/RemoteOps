@@ -1,0 +1,54 @@
+[2026-10-07 14:27:03] Agent server starting
+[2026-10-07 14:27:04] Agent server listening on TCP port 9430
+[2026-10-07 14:38:31] Client connected from 127.0.0.1:33110
+[2026-10-07 14:38:54] Received command: AUTH OPS-0059
+[2026-10-07 14:38:54] Authentication successful
+[2026-10-07 14:39:46] Received command: SYSINFO
+[2026-10-07 14:40:25] Received command: LISTPROC
+[2026-10-07 14:41:29] Received command: EXEC DATE
+[2026-10-07 15:00:48] Received command: EXEC ls
+[2026-10-07 15:00:48] EXEC command rejected
+[2026-10-07 15:07:52] Received command: PUT testfile.txt 40
+[2026-10-07 15:07:52] File upload completed
+[2026-10-07 15:16:06] Received command: PUT testfile.txt 40
+[2026-10-07 15:16:06] File upload completed
+[2026-10-07 15:17:54] Received command: GET testfile.txt
+[2026-10-07 15:17:54] File download completed
+[2026-10-07 15:20:25] Received command: MONITOR START 9501
+[2026-10-07 15:20:25] UDP monitoring started
+[2026-10-07 15:21:10] Client disconnected
+[2026-10-07 15:21:11] UDP monitoring stopped
+[2026-10-07 15:21:16] Client connected from 127.0.0.1:41072
+[2026-10-07 15:21:20] Received command: MONITOR START 9501
+[2026-10-07 15:22:05] Client disconnected
+[2026-10-07 15:23:20] Client connected from 127.0.0.1:36574
+[2026-10-07 15:23:23] Received command: MONITOR START 9501
+[2026-10-07 15:23:46] Client disconnected
+[2026-10-07 15:23:54] Client connected from 127.0.0.1:54852
+[2026-10-07 15:23:55] Received command: AUTH OPS-0059
+[2026-10-07 15:23:55] Authentication successful
+[2026-10-07 15:24:00] Received command: MONITOR START 9501
+[2026-10-07 15:24:00] UDP monitoring started
+[2026-10-07 15:26:17] Client disconnected
+[2026-10-07 15:26:18] UDP monitoring stopped
+[2026-10-07 18:10:24] Client connected from 127.0.0.1:36880
+[2026-10-07 18:12:11] Received command: AUTH OPS-0059
+[2026-10-07 18:12:11] Authentication successful
+[2026-10-07 18:13:51] Received command: SYSINFO
+[2026-10-07 18:15:56] Received command: LISTPROC
+[2026-10-07 18:16:08] Received command: MONITOR START 9501
+[2026-10-07 18:16:08] UDP monitoring started
+[2026-10-07 18:18:14] Received command: MONITOR STOP
+[2026-10-07 18:18:15] UDP monitoring stopped
+[2026-10-07 18:18:15] UDP monitoring stopped
+[2026-10-07 18:19:47] Received command: LISTPROC
+[2026-10-07 18:24:16] Received command: EXEC DATE
+[2026-10-07 18:26:36] Received command: EXEC UPTIME
+[2026-10-07 18:28:41] Received command: GET testfile.txt
+[2026-10-07 18:28:41] File download completed
+[2026-10-07 18:32:35] Received command: PUT testfile.txt 40
+[2026-10-07 18:32:35] File upload completed
+[2026-10-07 18:34:34] Received command: MONITOR START 9501
+[2026-10-07 18:34:34] UDP monitoring started
+[2026-10-07 19:19:12] Client disconnected
+[2026-10-07 19:19:13] UDP monitoring stopped
